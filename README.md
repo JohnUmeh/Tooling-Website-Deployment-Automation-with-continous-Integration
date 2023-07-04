@@ -1,5 +1,5 @@
 # Tooling-Website-Deployment-Automation-with-continous-Integration
-Using Jenkins to Automate Source code Changes on our Devops Team tool
+Using Jenkins to Automate Source code Changes on our Devops Team tool.
 
 In the [previous project 8](https://github.com/JohnUmeh/Load-Balancer-Solution-With-Apache) we introduced horizontal scalability concept, which allow us to add new Web Servers to our Tooling Website and we successfully deployed a set up with 2 Web Servers and also a Load Balancer to distribute traffic between them. Manual configuration is easy with few number of servers like 2 or 3 but automation of this configuration is neccessary when then number of servers are in hundreds or larger sum. We will be using [Jenkins](https://www.jenkins.io/) to automate source code management in this project- in this project we are going to utilize Jenkins CI capabilities to make sure that every change made to the [source code in GitHub](https://github.com/JohnUmeh/Devops_Tooling_website_Solution) will be automatically be updated to the Tooling Website.
 
